@@ -27,5 +27,6 @@ Because D3 loads the `data.csv` file dynamically, simply double-clicking the `in
 
 ## Data Sources
 The data for this project was aggregated and interpolated from the following reports:
-* **Common Sense Media:** Census data on teen and tween media use.
-* **Evoca & DemandSage:** Aggregated screen time statistics and demographic reports.
+* **[Common Sense Media](https://www.commonsensemedia.org/press-releases/two-years-into-the-pandemic-media-use-has-increased-17-among-tweens-and-teens):** Census data on teen and tween media use.
+* **[Evoca](https://evoca.tv/screen-time-statistics/):** Aggregated screen time statistics.
+* **[DemandSage](https://www.demandsage.com/screen-time-statistics/):** Demographic screen time reports.
