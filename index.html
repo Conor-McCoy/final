@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generation Gap: Screen Time Trends</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 40px; color: #333; line-height: 1.6; }
+        h1 { color: #2c3e50; }
+        .line { fill: none; stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+        .axis-label { font-size: 12px; font-weight: bold; }
+
+        #tooltip {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            pointer-events: none;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-size: 13px;
+            transition: opacity 0.2s;
+        }
+
+        #chart { background: #f9f9f9; border-radius: 8px; padding: 10px; }
+    </style>
+</head>
+<body>
+
+<h1>Generation Gap: Daily Screen Time (2015-2025)</h1>
+<p>A look at how daily screen time has changed across generations over the last decade, using data from Common Sense Media, Demand Sage, and Evoca.</p>
+
+<div id="chart"></div>
+
+<div id="tooltip" style="opacity: 0;"></div>
+
+<div style="margin-top: 30px; padding: 15px; background: #eef2f5; border-radius: 8px;">
+    <h3>Key Insights</h3>
+    <ul>
+        <li><strong>The Pandemic Spike:</strong> Every generation saw a sharp jump in screen time leading into 2021. For Gen Z, this peaked at over 8.6 hours a day, and levels across the board haven't really dropped back to 2015 baselines.</li>
+        <li><strong>The Millennial Exception:</strong> Millennials were the exception here. They had the smallest increase in screen time during the pandemic, showing a much flatter curve than the other two groups over the course of both the decade as a whole and the pandemic.</li>
+        <li><strong>Overall Growth:</strong> Gen Z saw the largest total increase in daily usage, adding nearly 1.8 hours to their daily average since 2015. However, Gen X showed the highest relative growth, increasing their daily screen time by over 30% in that same decade.</li>
+    </ul>
+</div>
+
+<div style="margin-top: 30px;">
+    <h3>Project Deliverables</h3>
+    <ul>
+        <li><a href="data.csv" target="_blank">View Raw Data (CSV)</a></li>
+        <li><a href="CS4804_Final_Process_Book.pdf" target="_blank">Download Process Book (PDF)</a></li>
+    </ul>
+
+    <div style="margin-top: 20px; padding: 20px; border: 2px dashed #ccc; text-align: center;">
+        <em>[Screencast Video Will Be Embedded Here]</em>
+    </div>
+</div>
+
+<hr>
+<p><small>Original Data Sources: <a href="https://evoca.tv/screen-time-statistics/" target="_blank">Evoca Screen Time Statistics</a>, <a href="https://www.commonsensemedia.org/press-releases/two-years-into-the-pandemic-media-use-has-increased-17-among-tweens-and-teens" target="_blank">Common Sense Media</a>, & <a href="https://www.demandsage.com/screen-time-statistics/" target="_blank">DemandSage Screen Time Statistics</a>.</small></p>
+
+<script src="script.js"></script>
+</body>
+</html>
