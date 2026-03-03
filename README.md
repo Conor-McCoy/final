@@ -2,7 +2,7 @@
 **Author:** Conor McCoy
 
 ## Important Links for Grading
-* **Live Interactive Visualization:** [https://conor-mccoy.github.io/final/]
+* **Live Interactive Visualization:** https://conor-mccoy.github.io/final/
 * **2-Minute Screencast:** [video link here]
 * **Process Book:** [Process Book](./CS4804_Final_Process_Book.pdf)
 
