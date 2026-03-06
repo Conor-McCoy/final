@@ -3,7 +3,7 @@
 
 ## Important Links for Grading
 * **Live Interactive Visualization:** https://conor-mccoy.github.io/final/
-* **2-Minute Screencast:** [video link here]
+* **2-Minute Screencast:** https://www.loom.com/share/42e1ec62b29743d9844a9ad470a359c1
 * **Process Book:** [Process Book](./CS4804_Final_Process_Book.pdf)
 
 ## Project Overview
